@@ -159,11 +159,24 @@ section .subtitle {
 
 }
 
+.video-desktop video {
+    position: absolute;
+    left: 18%;
+    max-width: 64%;
+    top: 11%;
+}
+.video-desktop img {
+    z-index: 1;
+    position: relative;
+}
+
+
 @media (min-width: 950px){
     .mobile{
         left: -15%;
     }
 }
+
 
 
 @media ( max-width: 992px) {
