@@ -170,6 +170,51 @@ section .subtitle {
     position: relative;
 }
 
+.perguntas .form-group{
+    outline: none;
+    border: 0;
+    margin-bottom: 8px;
+    background-color: black;
+   
+}
+
+.perguntas .accordion button {
+    background: #303030;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    margin-bottom: 1px;
+    width: 100%;
+    border: 0;
+    text-align: left;
+    position: relative;
+    color: #fff;
+    outline: none;
+    font-size: 1.625rem;
+}
+
+.perguntas .accordion img {
+    position: absolute;
+    right: 10px;
+    fill: #fff;
+    height: 3rem;
+    padding: 0.5rem;
+    transform: rotate(45deg);
+}
+
+.perguntas .accordion button[aria-expanded="true"] img {
+    transform: rotate(90deg);
+}
+
+.perguntas .accordion .card-body {
+    background: #303030;
+    width: 100%;
+    border: none;
+    border-top: black;
+    text-align: left;
+    color: #fff;
+    white-space: pre-line;
+    font-size: 1.625rem;
+    margin-top: 2px;
+}
 
 @media (min-width: 950px){
     .mobile{
