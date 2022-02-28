@@ -56,7 +56,7 @@ section {
     color: #fff;
 }
 
-.box .content h3 {
+.box .content h3, .perguntas .subtitle {
     font-size: 1.2rem;
     color: #fff;
 }
@@ -87,7 +87,7 @@ section {
 }
 
 .input-group{
-    width: 600px;
+    width: 700px;
 }
 
 
@@ -216,6 +216,57 @@ section .subtitle {
     margin-top: 2px;
 }
 
+footer, footer a {
+    color: #757575;
+    text-decoration: none;
+}
+
+ footer a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    font-size: 13px;
+}
+
+.select-globe select {
+    align-items: center;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #333;
+    color: #999;
+    font-size: 16px;
+    padding: 12px 12px 12px 50px;
+    line-height: 1.7;
+}
+
+.select-globe img {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 16px;
+}
+
+.select-globe-header select {
+    align-items: center;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    color: #fff;
+    font-size: .875rem;
+    padding: 0.35rem 1.375rem;
+}
+
+.select-globe-header img {
+    fill: #fff;
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    width: 16px;
+}
+.select-globe-header img path{
+    fill: #fff;
+}
+
 @media (min-width: 950px){
     .mobile{
         left: -15%;
@@ -317,6 +368,28 @@ section .subtitle {
 
     }
 
+    .perguntas {
+        padding: 0;
+    }
+
+    .perguntas .accordion button {
+        font-size: 1.125rem;
+        padding: 0.8rem 2.2rem 0.8rem 1.2rem;
+
+    }
+
+    .perguntas .accordion button img {
+        font-size: 2.5rem;
+        height: 2rem;
+
+    } 
+    .perguntas .subtitle {
+        padding: 0 7%;
+    }
+
+    .form-group {
+        margin-bottom: 8px;
+    }
     
 
 
