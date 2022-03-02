@@ -248,23 +248,19 @@ footer a {
 }
 
 .select-globe-header select {
-    align-items: center;
     background: rgba(0,0,0,.4);
     border: 1px solid #aaa;
     color: #fff;
     font-size: .875rem;
-    padding: 0.35rem 1.375rem;
+    padding: 0.5rem 1.375rem;
+    margin-right: 2rem;
 }
 
 .select-globe-header img {
-    fill: #fff;
     position: absolute;
     left: 7px;
-    top: 8px;
+    top: 10px;
     width: 16px;
-}
-.select-globe-header img path{
-    fill: #fff;
 }
 
 @media (min-width: 950px){
